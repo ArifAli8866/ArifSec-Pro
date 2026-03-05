@@ -212,6 +212,9 @@ axiron library for high‑speed username search.
 colorama for cross‑platform coloured output.
 
 Inspired by the countless OSINT and security tools in the open‑source community.
+## Project Status
+
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/a1d6fe2c13ea2bb53a5154435a71e2431f70c2ee.svg 'Repobeats analytics image')
 
 📈 Repobeats Analytics
 <p align="center"> <img src="https://repobeats.axiom.co/api/embed/your-repobeats-id.svg" alt="Repobeats analytics image" /> </p>
