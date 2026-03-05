@@ -227,6 +227,10 @@ VPN Detection – Identify if you're behind a VPN/proxy
 
 Automated Dependency Management – Improved cross‑platform install scripts
 
+## Project Status
+
+![Repobeats analytics image](https://repobeats.axiom.co/api/embed/a1d6fe2c13ea2bb53a5154435a71e2431f70c2ee.svg 'Repobeats analytics image')
+
 ## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date)](https://star-history.com/#yourusername/ArifSec-Pro&Date)
