@@ -124,7 +124,7 @@ python3 arifsec.py
 The tool will automatically prompt you to install any missing dependencies on first run. You can simply answer y to let it handle everything.
 
 🎮 Usage
-<p align="center"> <img src="https://via.placeholder.com/800x400/0d1117/00FFAA?text=ArifSec+Pro+Menu+Screenshot" alt="ArifSec Pro Menu Screenshot" width="80%"> </p>
+<p align="center"> <img src="s.png" alt="ArifSec Pro Menu Screenshot" width="80%"> </p>
 When you start the tool, you'll see the main menu:
 
 text
