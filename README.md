@@ -1,7 +1,5 @@
-# 🛡️ ArifSec Pro
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=435&lines=Your+Digital+Safety+Companion;OSINT+%2B+Network+Audit;Ethical+%26+Educational" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=500&lines=%F0%9F%9B%A1%EF%B8%8F+ArifSec+Pro;Your+Digital+Safety+Companion;OSINT+%2B+Network+Audit;Ethical+%26+Educational" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -14,17 +12,12 @@
 </p>
 
 <p align="center">
-  <i>Your all‑in‑one digital safety companion – from IP geolocation to Wi‑Fi auditing.</i>
-</p>
-
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-project-status">Project Status</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
-  <a href="#-development">Development</a> •
-  <a href="#-similar-projects">Similar Projects</a> •
-  <a href="#-acknowledgements">Acknowledgements</a>
+  <a href="#-features"><img src="https://img.shields.io/badge/Features-✨-brightgreen?style=flat-square"></a>
+  <a href="#-project-status"><img src="https://img.shields.io/badge/Project%20Status-📊-blue?style=flat-square"></a>
+  <a href="#-installation"><img src="https://img.shields.io/badge/Installation-📦-orange?style=flat-square"></a>
+  <a href="#-usage"><img src="https://img.shields.io/badge/Usage-🎮-purple?style=flat-square"></a>
+  <a href="#-development"><img src="https://img.shields.io/badge/Development-🛠️-yellow?style=flat-square"></a>
+  <a href="#-contributing"><img src="https://img.shields.io/badge/Contributing-🤝-red?style=flat-square"></a>
 </p>
 
 ---
@@ -50,7 +43,7 @@ Category	Features
 💣 Educational Attacks	DoS attack simulator (TCP SYN flood, limited to 100 packets), Wi‑Fi deauth attack tool (requires monitor mode and aircrack-ng)
 📋 Reporting	Generate a full security report with all findings (saved as .txt)
 📊 Project Status
-<p align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white"> <img src="https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/Build-Passing-success?style=for-the-badge&logo=githubactions"> <img src="https://img.shields.io/github/contributors/yourusername/ArifSec-Pro?style=for-the-badge"> </p>
+<p align="center"> <img src="https://img.shields.io/badge/status-active%20development-brightgreen?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/release-v1.0.0-blue?style=for-the-badge&logo=github"> <img src="https://img.shields.io/badge/build-passing-success?style=for-the-badge&logo=githubactions"> <img src="https://img.shields.io/github/contributors/yourusername/ArifSec-Pro?style=for-the-badge"> <img src="https://img.shields.io/github/last-commit/yourusername/ArifSec-Pro?style=for-the-badge"> </p>
 ✅ Implemented Features
 IP Geolocation – Shows public IP, city, region, country, ISP (via ip-api.com)
 
@@ -214,7 +207,8 @@ colorama for cross‑platform coloured output.
 
 Inspired by the countless OSINT and security tools in the open‑source community.
 
+📈 Repobeats Analytics
+<p align="center"> <img src="https://repobeats.axiom.co/api/embed/your-repobeats-id.svg" alt="Repobeats analytics image" /> </p>
 ⭐ Star History
-https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date
-
+<p align="center"> <a href="https://star-history.com/#yourusername/ArifSec-Pro&Date"> <img src="https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date" alt="Star History Chart"> </a> </p>
 <p align="center"> Made with ❤️ by <b>Arif Ali</b> <br> <a href="https://github.com/yourusername">GitHub</a> • <a href="https://twitter.com/yourhandle">Twitter</a> • <a href="https://discord.gg/yourdiscord">Discord</a> </p> ```
