@@ -216,8 +216,12 @@ Inspired by the countless OSINT and security tools in the open‑source communit
 
 ![Repobeats analytics image](https://repobeats.axiom.co/api/embed/a1d6fe2c13ea2bb53a5154435a71e2431f70c2ee.svg 'Repobeats analytics image')
 
-📈 Repobeats Analytics
-<p align="center"> <img src="https://repobeats.axiom.co/api/embed/your-repobeats-id.svg" alt="Repobeats analytics image" /> </p>
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="GitHub Stats" width="48%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak" width="48%">
+</p>
 ⭐ Star History
 <p align="center"> <a href="https://star-history.com/#yourusername/ArifSec-Pro&Date"> <img src="https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date" alt="Star History Chart"> </a> </p>
 <p align="center"> Made with ❤️ by <b>Arif Ali</b> <br> <a href="https://github.com/yourusername">GitHub</a> • <a href="https://twitter.com/yourhandle">Twitter</a> • <a href="https://discord.gg/yourdiscord">Discord</a> </p> ```
