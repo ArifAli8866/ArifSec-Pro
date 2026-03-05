@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="./banner.png" alt="ArifSec Pro Banner" width="100%">
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=00FFAA&center=true&vCenter=true&width=500&lines=%F0%9F%9B%A1%EF%B8%8F+ArifSec+Pro;Your+Digital+Safety+Companion;OSINT+%2B+Network+Audit;Ethical+%26+Educational" alt="Typing SVG" />
 </p>
 
@@ -120,6 +124,7 @@ python3 arifsec.py
 The tool will automatically prompt you to install any missing dependencies on first run. You can simply answer y to let it handle everything.
 
 🎮 Usage
+<p align="center"> <img src="https://via.placeholder.com/800x400/0d1117/00FFAA?text=ArifSec+Pro+Menu+Screenshot" alt="ArifSec Pro Menu Screenshot" width="80%"> </p>
 When you start the tool, you'll see the main menu:
 
 text
@@ -189,13 +194,13 @@ ArifSec-Pro/
 The tool is deliberately kept as a single Python file for ease of distribution and modification. All features are self‑contained.
 
 🔗 Similar Projects
-sherlock-project/sherlock – Username search across social networks.
+https://img.shields.io/badge/sherlock-project-blue?style=flat-square&logo=github – Username search across social networks.
 
-p1ngul1n0/blackbird – OSINT tool for username and email.
+https://img.shields.io/badge/blackbird-p1ngul1n0-blue?style=flat-square&logo=github – OSINT tool for username and email.
 
-twintproject/twint – Twitter scraping (now deprecated but influential).
+https://img.shields.io/badge/twint-twintproject-blue?style=flat-square&logo=github – Twitter scraping (now deprecated but influential).
 
-laramies/theHarvester – Email, subdomain, and people search.
+https://img.shields.io/badge/theHarvester-laramies-blue?style=flat-square&logo=github – Email, subdomain, and people search.
 
 🙏 Acknowledgements
 ip-api.com for free IP geolocation API.
