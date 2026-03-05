@@ -1,6 +1,30 @@
-🛡️ ArifSec Pro – Personal Security & OSINT Toolkit
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python"> <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge"> <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey?style=for-the-badge"> <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge"> </p><p align="center"> <i>Your all‑in‑one digital safety companion – from IP geolocation to Wi‑Fi auditing.</i> </p>
-text
+# 🛡️ ArifSec Pro
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey?style=for-the-badge">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge">
+  <a href="https://github.com/yourusername/ArifSec-Pro/stargazers"><img src="https://img.shields.io/github/stars/yourusername/ArifSec-Pro?style=for-the-badge&logo=github"></a>
+  <a href="https://github.com/yourusername/ArifSec-Pro/issues"><img src="https://img.shields.io/github/issues/yourusername/ArifSec-Pro?style=for-the-badge&logo=github"></a>
+</p>
+
+<p align="center">
+  <i>Your all‑in‑one digital safety companion – from IP geolocation to Wi‑Fi auditing.</i>
+</p>
+
+<p align="center">
+  [<a href="#-features">Features</a>] •
+  [<a href="#-installation">Installation</a>] •
+  [<a href="#-usage">Usage</a>] •
+  [<a href="#-development">Development</a>] •
+  [<a href="#-similar-projects">Similar Projects</a>] •
+  [<a href="#-acknowledgements">Acknowledgements</a>]
+</p>
+
+---
+
+```text
 █████╗ ██████╗ ██╗███████╗███████╗███████╗ ██████╗ 
 ██╔══██╗██╔══██╗██║██╔════╝██╔════╝██╔════╝██╔════╝ 
 ███████║██████╔╝██║█████╗  █████╗  █████╗  ██║      
@@ -9,68 +33,68 @@ text
 ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚══════╝╚═╝      ╚═════╝ 
       Personal Security & OSINT Toolkit
                Created by Arif Ali
-📌 About
-ArifSec Pro is a powerful, user‑friendly command‑line tool designed for everyday users to assess and improve their digital security. It combines essential privacy checks, OSINT (Open‑Source Intelligence) lookups, and educational network auditing features in one colorful package.
+```
 
-Whether you want to know your public IP location, check if your email was leaked, test password strength, or explore Wi‑Fi security on your own network – this tool makes it simple.
+> [!WARNING]
+> **⚠️ Ethical Use Only** – This tool is designed for educational purposes and security testing **on your own devices or networks** with explicit permission. Unauthorised scanning, deauthentication attacks, or denial‑of‑service attempts are illegal. The developer assumes no liability for misuse.
 
-⚠️ Ethical Use Only – All network attack features are strictly for educational purposes on your own equipment.
+---
 
-✨ Features
-Category	Features
-🌐 Network Info	Public IP geolocation, DNS leak test, local open port scanner
-🔐 Privacy Checks	Email breach lookup (via Have I Been Pwned), password strength meter
-🔍 OSINT	Social media username search across 700+ platforms, email‑to‑profile lookup
-📱 Device Auditing	Bluetooth device scanner (nearby devices)
-💣 Educational Attacks	DoS attack simulator (TCP SYN flood, limited packets), Wi‑Fi deauth attack tool
-📋 Reporting	Generate a full security report with all findings
-🖥️ Demo
-<p align="center"> <img src="https://via.placeholder.com/800x400?text=Screenshot+Coming+Soon" alt="Screenshot placeholder" width="80%"> </p>
-⚙️ Installation
-🔧 Prerequisites
-Linux (Ubuntu/Debian recommended) or macOS
+## ✨ Features
 
-Python 3.8+
+| Category | Features |
+|----------|----------|
+| 🌐 **Network Info** | Public IP geolocation (city, region, country, ISP), DNS leak test, local open port scanner |
+| 🔐 **Privacy Checks** | Email breach lookup via [Have I Been Pwned](https://haveibeenpwned.com) (requires free API key), password strength meter |
+| 🔍 **OSINT** | Social media username search across **700+ platforms** (Instagram, LinkedIn, Facebook, TikTok, Twitter, Skype, Snapchat, Google, Microsoft prioritised), email‑to‑profile lookup |
+| 📱 **Device Auditing** | Bluetooth device scanner (nearby devices) |
+| 💣 **Educational Attacks** | DoS attack simulator (TCP SYN flood, limited to 100 packets), Wi‑Fi deauth attack tool (requires monitor mode and `aircrack-ng`) |
+| 📋 **Reporting** | Generate a full security report with all findings (saved as `.txt`) |
 
-pip and git
+---
 
-📦 Quick Install
-Clone the repository
+## 📦 Installation
 
-bash
-git clone https://github.com/yourusername/arifsec-pro.git
-cd arifsec-pro
-Create and activate a virtual environment (recommended)
+### 🔧 Prerequisites
+- **Linux** (Ubuntu/Debian recommended) or **macOS**
+- **Python 3.8+**
+- `pip` and `git`
 
-bash
+### 🚀 Quick Install
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/ArifSec-Pro.git
+cd ArifSec-Pro
+
+# 2. (Recommended) Create and activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate
-Install required Python packages
-The tool will prompt you during first run, but you can also install manually:
 
-bash
+# 3. Install required Python packages
 pip install requests colorama
 # Optional for social media finder:
 pip install axiron
-Install system dependencies (for advanced features)
 
-bash
+# 4. Install system dependencies (for advanced features)
 sudo apt update
 sudo apt install bluez hping3 aircrack-ng   # Debian/Ubuntu
-On macOS, use brew install equivalents.
+# On macOS: brew install bluez hping3 aircrack-ng (if available)
 
-Run the tool
-
-bash
+# 5. Run the tool
 python3 arifsec.py
-For Wi‑Fi attacks, use sudo:
+```
 
-bash
-sudo python3 arifsec.py
-🚀 Usage
+> [!TIP]
+> The tool will **automatically prompt** you to install any missing dependencies on first run. You can simply answer `y` to let it handle everything.
+
+---
+
+## 🎮 Usage
+
 When you start the tool, you'll see the main menu:
 
-text
+```text
 ============================================================
  MAIN MENU
 ============================================================
@@ -86,76 +110,95 @@ text
 10. 📡 Wi-Fi Deauth Helper (Instructions)
 11. 🚫 Wi-Fi Deauth Attack (Educational)
 0.  Exit
-Just type the number and follow the prompts.
+```
 
-📧 Email Breach Check
-Get a free API key from Have I Been Pwned.
+Just type the number and follow the interactive prompts.
 
-Enter the key when prompted, then your email.
+### 📧 Email Breach Check
+- Get a free API key from [Have I Been Pwned](https://haveibeenpwned.com/API/Key)
+- Enter the key when prompted, then your email.
 
-🐦 Social Media Finder
-Uses the axiron library to search usernames across hundreds of platforms.
+### 🔍 Social Media Finder
+- Uses the `axiron` library to search usernames across hundreds of platforms.
+- Results are prioritised for major platforms.
 
-Results are prioritised: Instagram, LinkedIn, Facebook, TikTok, Twitter, Skype, Snapchat, Google, Microsoft first.
+### 📡 Wi‑Fi Deauth Attack
+- Requires a monitor‑mode capable wireless adapter.
+- Steps:
+  1. Enable monitor mode: `sudo airmon-ng start wlan0`
+  2. Note the new interface name (e.g., `wlan0mon`)
+  3. Run the tool with `sudo` and enter the interface, BSSID, etc.
 
-📡 Wi‑Fi Deauth Attack (Educational)
-Requires a monitor‑mode capable wireless adapter.
+---
 
-Follow the on‑screen steps after enabling monitor mode (e.g., sudo airmon-ng start wlan0).
+## 🛠️ Development
 
-⚠️ Legal & Ethical Disclaimer
-This tool is intended only for educational purposes and security testing on your own devices or networks with explicit permission.
+Want to contribute or modify the tool? Follow these steps:
 
-Unauthorised scanning, deauthentication attacks, or denial‑of‑service attempts are illegal in most jurisdictions.
+```bash
+# Clone your fork
+git clone https://github.com/yourusername/ArifSec-Pro.git
+cd ArifSec-Pro
 
-The developer assumes no liability for misuse.
+# Create virtual environment
+python3 -m venv venv
+source venv/bin/activate
 
-Always respect others' privacy and follow local laws.
+# Install dev dependencies (if any)
+pip install -r requirements-dev.txt   # if you have one
 
-By using this software, you agree to use it responsibly.
+# Make your changes, then run
+python3 arifsec.py
+```
 
-🛠️ Built With
-Python 3 – core language
+We welcome pull requests! Please ensure your code follows PEP8 and includes appropriate comments.
 
-requests – HTTP requests
+---
 
-colorama – cross‑platform coloured output
+## 📂 Project Structure
 
-axiron – high‑speed OSINT username search
+```
+ArifSec-Pro/
+├── arifsec.py          # Main script (single file)
+├── requirements.txt    # Python dependencies
+├── LICENSE             # MIT License
+└── README.md           # You are here
+```
 
-Various system tools: hcitool, hping3, aircrack-ng
+> [!NOTE]
+> The tool is deliberately kept as a **single Python file** for ease of distribution and modification. All features are self‑contained.
 
-🤝 Contributing
-Contributions are welcome! If you'd like to improve ArifSec Pro:
+---
 
-Fork the repository.
+## 🔗 Similar Projects
 
-Create a feature branch (git checkout -b feature/AmazingFeature).
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) – Username search across social networks.
+- [p1ngul1n0/blackbird](https://github.com/p1ngul1n0/blackbird) – OSINT tool for username and email.
+- [twintproject/twint](https://github.com/twintproject/twint) – Twitter scraping (now deprecated but influential).
+- [laramies/theHarvester](https://github.com/laramies/theHarvester) – Email, subdomain, and people search.
 
-Commit your changes (git commit -m 'Add some AmazingFeature').
+---
 
-Push to the branch (git push origin feature/AmazingFeature).
+## 🙏 Acknowledgements
 
-Open a Pull Request.
+- [ip-api.com](http://ip-api.com) for free IP geolocation API.
+- [Have I Been Pwned](https://haveibeenpwned.com) for breach data.
+- [axiron](https://pypi.org/project/axiron/) library for high‑speed username search.
+- [colorama](https://pypi.org/project/colorama/) for cross‑platform coloured output.
+- Inspired by the countless OSINT and security tools in the open‑source community.
 
-Please ensure your code follows PEP8 and includes appropriate comments.
+---
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+## ⭐ Star History
 
-📧 Contact
-Arif Ali – GitHub – your.email@example.com
+[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date)](https://star-history.com/#yourusername/ArifSec-Pro&Date)
 
-Project Link: https://github.com/yourusername/arifsec-pro
+---
 
-<p align="center"> Made with ❤️ by Arif Ali </p> ```
-🎨 Notes for GitHub
-Replace placeholder image links with actual screenshots after you take them.
-
-Update the GitHub URL and contact info.
-
-You can add more badges (e.g., test coverage, downloads) from shields.io.
-
-If you want a more "heavy" design, you can embed custom HTML/CSS, but GitHub's markdown renderer is limited. The above uses ASCII art and emojis for visual appeal.
-
-This README is comprehensive, professional, and highlights all the features you built. It also includes the ethical disclaimer which is crucial for a security tool.
+<p align="center">
+  Made with ❤️ by <b>Arif Ali</b>
+  <br>
+  <a href="https://github.com/yourusername">GitHub</a> •
+  <a href="https://twitter.com/yourhandle">Twitter</a> •
+  <a href="https://discord.gg/yourdiscord">Discord</a>
+</p>
