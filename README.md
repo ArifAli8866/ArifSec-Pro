@@ -189,6 +189,44 @@ ArifSec-Pro/
 
 ---
 
+📊 Project Status
+<p align="center"> <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen?style=for-the-badge"> <img src="https://img.shields.io/badge/Release-v1.0.0-blue?style=for-the-badge"> </p>
+✅ Implemented Features
+IP Geolocation – Shows public IP, city, region, country, ISP using ip-api.com
+
+Email Breach Check – Integrates with Have I Been Pwned API (requires free key)
+
+Password Strength Meter – Analyzes password complexity with real‑time feedback
+
+Local Open Port Scanner – Scans common ports on your machine
+
+DNS Leak Test – Detects if your DNS queries are leaking to ISP
+
+Social Media Finder – Searches 700+ platforms by username/email (prioritises major networks)
+
+Bluetooth Scanner – Discovers nearby Bluetooth devices (requires bluez)
+
+DoS Attack Simulator – Educational TCP SYN flood (limited to 100 packets)
+
+Wi‑Fi Deauth Helper – Step‑by‑step instructions for deauth attacks
+
+Wi‑Fi Deauth Attack Tool – Interactive tool to perform deauth on your own network
+
+Security Report Generator – Exports all findings to a timestamped text file
+
+🚧 In Progress / Planned
+GUI / Web Interface – A simple web dashboard for easier interaction
+
+Mobile Support – Test and optimise for Termux on Android
+
+Vulnerability Scanner – Check local network for common misconfigurations
+
+More OSINT Integrations – Add phone number lookup, domain reconnaissance
+
+VPN Detection – Identify if you're behind a VPN/proxy
+
+Automated Dependency Management – Improved cross‑platform install scripts
+
 ## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourusername/ArifSec-Pro&type=Date)](https://star-history.com/#yourusername/ArifSec-Pro&Date)
